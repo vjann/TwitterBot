@@ -6,7 +6,7 @@ auth = tweepy.OAuthHandler('tWBNCPcE9bRoyPgirSiYBJQCH', 'bKbmzMe0CqQ4l41j9zUzF6j
 auth.set_access_token('913509119730049031-LfE8miwRDyaVBpW0BV6QkH0xdNJ0SGu', '16CYXo6MiiBkzg2f8uESVgaPkmCb7hG2pPg1Q9lS350nI')
 api = tweepy.API(auth)
 
-filename=open('twitter.txt')
+filename=open('genesis.txt')
 f=filename.readlines()
 filename.close()
 # initially, the script will assume that the last tweet was a null value

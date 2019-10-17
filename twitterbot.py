@@ -16,7 +16,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 # open our content file and read each line
-filename=open('twitter.txt')
+filename=open('genesis.txt')
 f=filename.readlines()
 filename.close()
 
